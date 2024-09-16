@@ -52,7 +52,7 @@ async def chat(msg: Message, *args):
                                        "messages": [*prompt, *msg_history, current_msg],
                                        "max_tokens": 1000})
         response = await res.json()
-    print(response)
+
     response_message = response['choices'][0]['message']
 
     user_session[msg.author.id].append(current_msg)

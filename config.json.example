@@ -1,0 +1,8 @@
+{
+  "token": "YOUR_BOT_TOKEN",
+  "openai": {
+    "api_key": "your_openapi_key",
+    "model": "gpt-3.5-turbo",
+    "api_base": "https://api.openai.com/v1"
+  }
+}
